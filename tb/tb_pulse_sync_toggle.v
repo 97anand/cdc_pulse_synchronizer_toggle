@@ -29,14 +29,21 @@ initial
   begin
    clock_a     = 1'b0;    
    clock_b     = 1'b0;
+   pls_a       = 1'b0;
    async_rst_n = 1'b0;
    #10;
    async_rst_n = 1'b1;
    pls_a       = 1'b0;
-   #40;   
+   #45;   
    pls_a       = 1'b1;
-   #5;   
+   #10;   
    pls_a       = 1'b0;
+   #245;   
+   pls_a       = 1'b1;
+   #10;   
+   pls_a       = 1'b0;
+   #2000;
+   $finish();
   end
 
 endmodule

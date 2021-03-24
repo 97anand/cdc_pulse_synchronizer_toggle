@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pulse_sync_toggle_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pulse_sync_toggle" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="363001fs"></ZoomEndTime>
+      <Cursor1Time time="323010fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/clock_a">
+      <obj_property name="ElementShortName">clock_a</obj_property>
+      <obj_property name="ObjectShortName">clock_a</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/clock_b">
+      <obj_property name="ElementShortName">clock_b</obj_property>
+      <obj_property name="ObjectShortName">clock_b</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/async_rst_n">
+      <obj_property name="ElementShortName">async_rst_n</obj_property>
+      <obj_property name="ObjectShortName">async_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pls_a">
+      <obj_property name="ElementShortName">pls_a</obj_property>
+      <obj_property name="ObjectShortName">pls_a</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pls_b">
+      <obj_property name="ElementShortName">pls_b</obj_property>
+      <obj_property name="ObjectShortName">pls_b</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pulse_sync_toggle_i/pls_toggle">
+      <obj_property name="ElementShortName">pls_toggle</obj_property>
+      <obj_property name="ObjectShortName">pls_toggle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pulse_sync_toggle_i/pls_toggle_synca">
+      <obj_property name="ElementShortName">pls_toggle_synca</obj_property>
+      <obj_property name="ObjectShortName">pls_toggle_synca</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pulse_sync_toggle_i/pls_toggle_syncb">
+      <obj_property name="ElementShortName">pls_toggle_syncb</obj_property>
+      <obj_property name="ObjectShortName">pls_toggle_syncb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_pulse_sync_toggle/pulse_sync_toggle_i/pls_toggle_syncc">
+      <obj_property name="ElementShortName">pls_toggle_syncc</obj_property>
+      <obj_property name="ObjectShortName">pls_toggle_syncc</obj_property>
+   </wvobject>
+</wave_config>
