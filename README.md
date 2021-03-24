@@ -6,3 +6,6 @@ This is a sample circuit for sampling a pulse from one clock domain to another c
 Version 0.1 - Alpha A - Written The Code (Not Simulated/Compile Free)
 
 version 1.0 - Release 1.0 - Written the TB, Simulated and Added the circuit diagrams
+
+![image](https://user-images.githubusercontent.com/22993146/112364111-32fcaf00-8cfc-11eb-8ea8-b1714e219d25.png)
+
